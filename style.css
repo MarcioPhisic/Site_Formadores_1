@@ -1,23 +1,166 @@
-*{
-    margin: 0;
-    padding: 0;
+.seta11{
+	background-image: url(imagens/11.png);
+	background-repeat:no-repeat;
+	position: absolute;
+	height: 95px;
+	width: 246px;
+	left: 1370px;
+    top: 40px;
 }
-.cabecalho{
-background-image: url("imagens/Rectangle1.png");
-color: white;
-display: flex;
-justify-content: space-around;
-align-items: center;
+.sobrenos{
+	background-image: url(imagens/sobrenos.png);
+	background-repeat:no-repeat;
+	position: absolute;
+	height: 95px;
+	width: 246px;
+	left: 1150px;
+    top: 50px;
+	    
+	}
+	   .exemplo1:hover {
+		color: red;
+	}
+		   
+.Inscreva-se{
+	background-image: url(imagens/Inscreva-se.png);
+	background-repeat:no-repeat;
+	position: absolute;
+	height: 95px;
+	width: 246px;
+	left: 850px;
+    top: 50px;
+     }
+
+.texto1{
+	position:absolute;
+	height: 200px;
+	width: 300px;
+	left: 20px;
+	top: 700px;
+	}
+.texto2{
+	position:absolute;
+	height: 200px;
+	width: 300px;
+	left: 20px;
+	top: 1650px;
+	}
+
+.texto3{
+	position:absolute;
+	height: 200px;
+	width: 500px;
+	left: 500px;
+	top: 200px;
+	}
+
+	.team1{
+		position: absolute;
+		height:250px;
+		width:350px;
+		left:30px;
+		top:200px;
+	
+	}
+.rectangle2 { 
+	width:1440px;
+	height:1093px;
+	background-image:url(imagens/rectangle_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    left:10px;
+    top:50px;
+}
+
+.Rectangle1
+{
+position:absolute;
+background-image:url(imagens/Rectangle1.png);
+position: absolute;
+width: 1440px;
+height: 150px;
+left:0px;
+top:5px;
+}
+
+.logo_formadores_acao
+{
+position:absolute;
+background-image:url(imagens/logo_formadores_acao.png);
+background-repeat:no-repeat;
+height:94px;
+width:158px;
+left:10px;
+top:50px;
+}
+
+.rectangle12{
+	position:absolute;
+	background-image:url(imagens/rectangle12.png);
+	background-repeat:no-repeat;
+	height:465px;
+	width:1440px;
+	left:30px;
+	top:1130px;
 
 }
 
-.logo_cabecalho1{
-width: 15%;
+.rectangle6
+{
+background-image:url(imagens/rectangle6.png);
+height:781px;
+width:1440px;
+left:0px;
+top:1650px;
 }
 
-.links_cabecalho{
-display: inline-block;
-margin: 0 15px;
-font-size: 24px;
+.Rectangle5{
+background-image:url(imagens/Rectangle5.png);
+position:absolute;
+height:55px;
+width:1440px;
+left:0px;
+top:1890px;
+background: #D9D9D9;
+}
+.Rectangle4{
+	background-image:url(imagens/Rectangle4.png);
+	position:absolute;
+	height: 200px;
+    width: 312px;
+    left: 1132px;
+    top: 549px;
+    border-radius: 31px;
+	background: #000000;
+	opacity: 50%;
+	}
 
+
+	.Rectangle3{
+		background-image:url(imagens/Rectangle3.png);
+		position:absolute;
+		height: 200px;
+		width: 312px;
+		left: 1132px;
+		top: 320px;
+		border-radius: 31px;
+		background: #000000;
+		opacity: 50%;
+		}
+	.body_Quemsomos{
+		background: rgb(5,103,158);
+        background: linear-gradient(170deg, rgba(5,103,158,1) 0%, rgb(201, 240, 239) 49%, rgb(242, 246, 247) 100%);
+		height: 600px;
+		width: 1440px;
+		left: 50px;
+		top: 300px;
+		border-radius: 15px;
+		opacity: 50%;
+
+	}
+		#main {
+			width: 100vw;
+			height:100vh;
+			background-size: cover;
+		}
 }
